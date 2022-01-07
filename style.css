@@ -1,72 +1,36 @@
 body {
-    background: linear-gradient(rgb(109, 14, 187), rgb(180, 231, 11))
+    background-image: url("doodle_background.png");
+    background-size: cover;
 }
 
-#show_sketch {
-    float: right;
-}
-
-#score {
-    font-size: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 75%;
-}
-
-#timer {
-    font-size: 40px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-right: 10%;
-    float: right;
-    
-}
-
-#estimatedDoodle {
-    font-size: 180%;
+.heading {
     background-color: aliceblue;
-    border-radius: 15px;
-    margin-left: 37%;
-    margin-right: 37%;
-    border: ridge 4px yellow
+    border: 4px groove goldenrod;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
-#confidence {
-    font-size: 180%;
-    background-color: aliceblue;
-    border-radius: 15px;
-    margin-left: 35%;
-    margin-right: 35%;
-    border: ridge 4px blue;
+.note {
+    font-size: 20px;
+    color: rgb(31, 133, 31);
 }
 
-#assignedDoodle {
-    font-size: 180%;
-    background-color: aliceblue;
-    border-radius: 15px;
-    margin-left: 30%;
-    margin-right: 30%;
-    border: ridge 4px black;
 
-}
-
-#ADText {
-    color: darkgoldenrod;
-}
-
-#EDText {
-    color: green;
-}
-
-#CText {
-    color: blue;
-}
-h1 {
-    border: solid 5px aqua;
+#foot {
+    line-height: 30px;
+    font-size: 20px;
+    background-color: grey;
+    text-align: center;
+    color: rgb(131, 221, 230);
+    position: fixed;
+    bottom: 0px;
     width: 100%;
-    background-color: rgb(110, 139, 110);
-    font-size: 40px;
 }
 
 canvas {
-    border: groove 5px greenyellow;
-    margin-top: 10%;
-}
+        border: 5px groove green;
+        border-radius: 20px;
+        box-shadow: 5px 5px 10px grey;
+    }
