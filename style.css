@@ -1,0 +1,72 @@
+body {
+    background: linear-gradient(rgb(109, 14, 187), rgb(180, 231, 11))
+}
+
+#show_sketch {
+    float: right;
+}
+
+#score {
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 75%;
+}
+
+#timer {
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-right: 10%;
+    float: right;
+    
+}
+
+#estimatedDoodle {
+    font-size: 180%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-left: 37%;
+    margin-right: 37%;
+    border: ridge 4px yellow
+}
+
+#confidence {
+    font-size: 180%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    border: ridge 4px blue;
+}
+
+#assignedDoodle {
+    font-size: 180%;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: ridge 4px black;
+
+}
+
+#ADText {
+    color: darkgoldenrod;
+}
+
+#EDText {
+    color: green;
+}
+
+#CText {
+    color: blue;
+}
+h1 {
+    border: solid 5px aqua;
+    width: 100%;
+    background-color: rgb(110, 139, 110);
+    font-size: 40px;
+}
+
+canvas {
+    border: groove 5px greenyellow;
+    margin-top: 10%;
+}
